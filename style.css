@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#racetrack{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.horse{
+  position: absolute;
+  left:0;
+  width: 10%;
+  height: 10%;
+  transition: left .4s;
+  transition-timing-function: linear;
+}
+.horse::after{
+  content: attr(data-jumpCount)
+}
+
+#horse1{
+  background-color: red;
+  top: 12%;
+}
+
+#horse2{
+  background-color: blue;
+  top: 34%;
+}
+
+#horse3{
+  background-color: green;
+  top: 56%;
+}
+
+#horse4{
+  background-color: orange;
+  top: 78%;
+}
+
+#finish{
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  right: 0px;
+  background-color: yellowgreen;
+  z-index: -1;
+}
