@@ -32,17 +32,26 @@ body, html {
 }
 
 #horse2{
-  background-color: goldenrod;
+  background-image: url(/images/AjFP5.png);
+  width: 64px;
+  height: 64px;
+  background-position-y: 128px;
   top: 34%;
 }
 
 #horse3{
-  background-color: green;
+  background-image: url(/images/AjFP5.png);
+  width: 64px;
+  height: 64px;
+  background-position-y: 128px;
   top: 56%;
 }
 
 #horse4{
-  background-color: orange;
+  background-image: url(/images/AjFP5.png);
+  width: 64px;
+  height: 64px;
+  background-position-y: 128px;
   top: 78%;
 }
 
