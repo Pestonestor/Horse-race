@@ -24,7 +24,10 @@ body, html {
 }
 
 #horse1{
-  background-color: red;
+  background-image: url(/images/AjFP5.png);
+  width: 64px;
+  height: 64px;
+  background-position-y: 128px;
   top: 12%;
 }
 
